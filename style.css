@@ -1,0 +1,92 @@
+/* #outerbox{
+    background-color:pink;
+    margin-left:300px;
+    margin-top:100px;
+    height:350px;
+    width:370px;
+    display:flex;
+    flex-direction:column ; 
+    justify-content:center;
+    align-items:center;
+
+} */
+
+/* #outerbox{
+    text-align: center;
+    margin-top:200px;
+    border: 2px solid black;
+    /* height:auto; */
+    /* width:400px; 
+}*/
+
+/* Bro code */
+body{
+    font-family:Arial,sans-serif;
+    background-color:rgba(209, 204, 204, 0.674);
+    text-align:center;
+}
+
+h1{
+color: rgb(70, 70, 233);
+}
+
+div{
+    background-color: white;
+    text-align:center;
+    max-width: 350px;         /*The max-width property defines the maximum width of an element.
+                        If the content is larger than the maximum width, it will automatically change the height of the element. .*/
+
+    /* margin-left:600px; */
+      /* margin-top:200px; */
+      margin:auto;/*:) middle of the viewport */
+      /* border:3px solid red; */
+      border-radius:25px;
+      padding:25px;
+      box-shadow:5px 5px  15px rgba(0, 0, 0, 0.648);    /*horizontal offsert ->vertical offset-> blur radius*/
+       
+    }
+
+    #myTextbox{
+        width:50%;
+        text-align:center;
+        font-size:2em;
+        border:2px solid rgba(0, 0, 0, 0.814);
+        border-radius:5px;
+        margin-bottom: 15px;
+    }
+
+
+    label{
+        font-size:1.5em;
+        font-weight:bold;
+        
+        
+    }
+    label:hover{
+       background-color: antiquewhite;
+    }
+
+    #button{
+        margin-top:40px;
+        width:25%;  /*either increase the button with or increase the font-size to increase the button size*/
+        font-weight:bold;
+        border-radius:5px;
+        box-shadow:1px 1px 2px rgba(0, 0, 0, 0.682);
+        /* border:none; */
+        background-color:rgba(255, 0, 0, 0.56);
+        color:blanchedalmond;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       
+    }
+    #button:hover{
+        background-color:rgba(137, 43, 226, 0.753);
+        cursor:pointer;
+    }
+
+#result{
+    font-family:sans-serif,arial;
+font-size:1.3em;
+font-weight:bold;
+}
+
+

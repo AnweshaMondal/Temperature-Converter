@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Conversion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    
+<div id="outerbox">
+    <h1>Temperature Conversion :</h1>
+    <input type="number" id="myTextbox" value="0">    <br>     <!--Input is a self closing tag,  value=initializing value with 0-->
+    
+    <input type="radio"  id="toFehrenheit" name="unit">        <!--name=group, checkbox property, selects only one out of many radio buttons-->
+    <label for="toFehrenheit">  Celsius ➡️ fehrenheit </label><br> <!--we can select radio button also by clicking on label as "for" attribute of label = "id" of the radio button -->
+
+    <input type="radio"  id="toCelsius" name="unit">
+    <label for="toCelsius">  Fehrenheit  ➡️  Celsius </label><br>
+
+    <button id="button">Submit</button><br><br>
+  
+    <p id="result"></p>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
